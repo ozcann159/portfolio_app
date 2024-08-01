@@ -284,10 +284,10 @@ packages:
     dependency: "direct main"
     description:
       name: responsive_framework
-      sha256: "52367ab0c3479b3a5342dec3b74a3d47c4cc1b45bb5d38f720c2e002ebccd4ee"
+      sha256: eacaec7792360711b063ff349794cfdcf567be5e3329f682fabcbe7d4975d263
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "0.1.7"
   scrollable_positioned_list:
     dependency: "direct main"
     description:
