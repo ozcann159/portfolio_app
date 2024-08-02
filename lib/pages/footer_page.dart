@@ -68,11 +68,11 @@ class FooterPage extends StatelessWidget {
                                             height: 1.8,
                                           ),
                                         ),
-                                        TextSpan(
-                                          text: '${footerItem.text2}\n',
-                                          style: const TextStyle(
-                                              color: captionColor),
-                                        )
+                                        // TextSpan(
+                                        //   text: '${footerItem.text2}\n',
+                                        //   style: const TextStyle(
+                                        //       color: captionColor),
+                                        // )
                                       ],
                                     ),
                                   )

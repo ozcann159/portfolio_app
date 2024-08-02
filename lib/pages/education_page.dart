@@ -28,7 +28,7 @@ class EducationPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'EDUCATION',
+                  'EĞİTİM',
                   style: GoogleFonts.oswald(
                     color: Colors.white,
                     fontWeight: FontWeight.w900,
@@ -37,8 +37,8 @@ class EducationPage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 5),
-                Wrap(
-                  children: const [
+                const Wrap(
+                  children: [
                     Text(
                       education,
                       style: TextStyle(color: Colors.white, fontSize: 20),

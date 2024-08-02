@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio_app/utils/constants.dart';
@@ -80,17 +78,17 @@ class DesktopTabBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(width: 24),
-            menuItem(toPage: 0, title: 'Home'),
+            menuItem(toPage: 0, title: 'Anasayfa'),
             const SizedBox(width: 24),
-            menuItem(toPage: 1, title: 'About'),
+            menuItem(toPage: 1, title: 'Hakkında'),
             const SizedBox(width: 24),
-            menuItem(toPage: 2, title: 'My Projects'),
+            menuItem(toPage: 2, title: 'Projelerim'),
             const SizedBox(width: 24),
-            menuItem(toPage: 3, title: 'Education'),
+            menuItem(toPage: 3, title: 'Eğitim'),
             const SizedBox(width: 24),
-            menuItem(toPage: 4, title: 'My Skills'),
+            menuItem(toPage: 4, title: 'Yeteneklerim'),
             const SizedBox(width: 24),
-            menuItem(toPage: 5, title: 'Contact Me')
+            menuItem(toPage: 5, title: 'İletişim')
           ],
         ),
       ),
